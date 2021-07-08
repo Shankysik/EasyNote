@@ -1,0 +1,20 @@
+{
+  "manifest_version" : 2,
+  "name" : "EasyNote",
+  "description" : "Расширение для быстрого и лаконичного ведения заметок",
+  "version" : "1",
+  "browser_action": {
+    "default_title" : "EasyNote",
+    "default_icon" : "icon.png", 
+    "default_popup" : "popup.html"
+
+  },
+  "permissions": [
+  "storage"
+  ],
+  "icons" : {
+    "16" : "icon.png",
+    "48" : "icon.png",
+    "128" : "icon.png"
+  }
+}

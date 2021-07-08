@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* { margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.ractions{
+    display: block;
+}
+.notepad{
+    width: 400px;
+    height: 150px;
+    resize: none;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px #dbdbdc solid;
+    border-top: 1px #dbdbdc solid;
+}
+
+textarea:focus, input:focus
+{
+    outline: none;
+}
+
+.container{
+    display: flex;
+    height: 220px;
+}
+.rside{
+    background-color: #ffffff ;
+    width: 410px;
+    height: 230px;
+
+}
+.lside{
+    background-color: #ececec;
+    width: 140px;
+    height: 220px;
+    border-right: 1px #c9c9c9 solid;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+.ractions{
+    display: flex;
+    float: right;
+    height: 35px;
+
+}
+#fot{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-right: 5px;
+    color: rgba(145, 0, 148, 1);
+    font-weight: bold;
+}
+.create-note {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+button:focus, button:hover{
+    outline: none;
+}
+#bot{
+    background: #00AB74;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 50px ;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.delete-note{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+.header{
+    height: 35px;
+}
+body{
+    width: 550px;
+    height: 220px;
+    background-color: #ececec;
+}
+.Notes{
+    font-weight: bold;
+    color: rgba(145, 0, 148, 1);
+    overflow-y: scroll;
+    height: 200px;
+    cursor: default;
+
+}
+.active{
+    color: #00AB74;
+}
+.note{
+    cursor: pointer;
+}
